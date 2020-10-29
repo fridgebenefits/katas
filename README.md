@@ -1,7 +1,7 @@
 # katas
 
-Requirements:
-We can find under the Requirments folder
+Requirements folder:
+All the requirement specifications listed
 
 Topology folder:
 
