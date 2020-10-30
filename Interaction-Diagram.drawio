@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" modified="2020-10-30T20:51:21.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="DS7WVUYuC435cS2fFrN4" version="13.8.8" type="github">
+  <diagram id="B69_xCuPPmJOlllpwnct" name="Page-1">
+    <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AFESQtXUc2UWVLBhGiya-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-2" value="Food Vendor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-3" value="POS Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-4" value="Service Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-5" value="System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="620" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-7" value="Marketing Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="750" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-10" value="Menu Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-11" value="browse menu" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="AFESQtXUc2UWVLBhGiya-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="60" as="sourcePoint" />
+            <mxPoint x="260" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-12" value="Locator Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-13" value="find location" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="AFESQtXUc2UWVLBhGiya-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="70" as="sourcePoint" />
+            <mxPoint x="370" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-14" value="Feedback Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-15" value="provide feedback" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1" target="AFESQtXUc2UWVLBhGiya-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-16" value="Rating Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFESQtXUc2UWVLBhGiya-17" value="rate items" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="AFESQtXUc2UWVLBhGiya-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="100" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-1" value="Customer Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-2" value="provide dietary/health info" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqb2OwFKpr_LkZeMIo-q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="110" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="AFESQtXUc2UWVLBhGiya-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-4" value="publish menu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-3">
+          <mxGeometry x="-0.8358" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-5" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-6" value="notify prepare items ready&lt;br&gt;for delivery" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqb2OwFKpr_LkZeMIo-q-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-7" value="POS Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-8" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFESQtXUc2UWVLBhGiya-3" target="Uqb2OwFKpr_LkZeMIo-q-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="440" as="sourcePoint" />
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-9" value="report item inventory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-8">
+          <mxGeometry x="-0.2259" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqb2OwFKpr_LkZeMIo-q-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="340" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-11" value="report purchases" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-10">
+          <mxGeometry x="-0.2341" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.354;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Uqb2OwFKpr_LkZeMIo-q-12" target="Uqb2OwFKpr_LkZeMIo-q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-12" value="Inventory Tracker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-13" value="Recommendation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="690" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqb2OwFKpr_LkZeMIo-q-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="640" as="sourcePoint" />
+            <mxPoint x="290" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-15" value="track inventory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-14">
+          <mxGeometry x="-0.0722" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.954;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Uqb2OwFKpr_LkZeMIo-q-18" target="Uqb2OwFKpr_LkZeMIo-q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-18" value="Purchase Tracker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-20" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqb2OwFKpr_LkZeMIo-q-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="660" as="sourcePoint" />
+            <mxPoint x="310" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-21" value="track purchases" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-20">
+          <mxGeometry x="-0.0789" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-22" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="680" as="sourcePoint" />
+            <mxPoint x="420" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-23" value="generate recommendations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-22">
+          <mxGeometry x="-0.0502" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="50" as="sourcePoint" />
+            <mxPoint x="420" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-25" value="view recommendations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqb2OwFKpr_LkZeMIo-q-24">
+          <mxGeometry x="-0.0959" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-26" value="Recommendation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-27" value="Feedback Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-28" value="solicit feedback on purchases" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="420" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-29" value="Marketing Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="800" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqb2OwFKpr_LkZeMIo-q-30" value="create promotions/coupons" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="790" as="sourcePoint" />
+            <mxPoint x="420" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
