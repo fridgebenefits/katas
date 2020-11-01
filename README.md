@@ -13,3 +13,5 @@ Topology folder:
 https://app.diagrams.net/#Hfridgebenefits%2Fkatas%2Fmain%2FInteraction-Diagram.drawio
 
 Architecural Decision Record: 
+https://github.com/fridgebenefits/katas/blob/main/ADR%201.docx
+https://github.com/fridgebenefits/katas/blob/main/ADR%202.docx
