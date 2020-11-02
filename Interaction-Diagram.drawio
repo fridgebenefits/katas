@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T05:08:03.740Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="cCXu9uHna_6vj1QtCApS" version="13.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-02T05:09:04.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_pBFothFHEw8EZyEdKlh" version="13.8.8" type="github" pages="3">
   <diagram id="B69_xCuPPmJOlllpwnct" name="Interaction Diagram">
     <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -442,12 +442,13 @@
         <mxCell id="RHNygG4-QyBGX2huQ6m5-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/browser-128.png;rounded=0;strokeColor=#FFFFFF;fillColor=#F08E81;fontColor=#1A1A1A;" parent="RHNygG4-QyBGX2huQ6m5-1" vertex="1">
           <mxGeometry x="-15" y="25" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yNGicOSIzmQdY8Znmsmq-0" value="REST API" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;fontColor=#1A1A1A;entryX=0.517;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RHNygG4-QyBGX2huQ6m5-1" source="RHNygG4-QyBGX2huQ6m5-16" target="RHNygG4-QyBGX2huQ6m5-19" edge="1">
-          <mxGeometry x="0.4563" relative="1" as="geometry">
+        <mxCell id="yNGicOSIzmQdY8Znmsmq-0" value="REST API" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;fontColor=#1A1A1A;entryX=0.553;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RHNygG4-QyBGX2huQ6m5-1" source="RHNygG4-QyBGX2huQ6m5-16" target="RHNygG4-QyBGX2huQ6m5-19" edge="1">
+          <mxGeometry x="0.442" relative="1" as="geometry">
             <mxPoint x="135" y="240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="230" y="220" />
-              <mxPoint x="136" y="220" />
+              <mxPoint x="120" y="220" />
+              <mxPoint x="120" y="244" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
