@@ -10,5 +10,5 @@ https://github.com/fridgebenefits/katas/blob/main/Architecture%20Kata_1a6c570fec
 https://github.com/fridgebenefits/katas/blob/main/FridgeBenefits_Topology.png
 
 **Architecural Decision Record:**
-ADR 1 - https://github.com/fridgebenefits/katas/blob/main/ADR%201.md
-ADR 2 - https://github.com/fridgebenefits/katas/blob/main/ADR%202.md
+- Asynchronous Purchase service ADR - https://github.com/fridgebenefits/katas/blob/main/ADR%201.md
+- Point-Of-Sale abstraction ADR - https://github.com/fridgebenefits/katas/blob/main/ADR%202.md
